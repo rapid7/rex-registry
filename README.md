@@ -1,8 +1,6 @@
 # Rex::Registry
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rex/registry`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Ruby Exploitation(rex) Library for parsing offline copys of Windows Registry Hives. Ported over from Brandon Perry's original code inside Metasploit Framework.
 
 ## Installation
 
@@ -20,9 +18,7 @@ Or install it yourself as:
 
     $ gem install rex-registry
 
-## Usage
 
-TODO: Write usage instructions here
 
 ## Development
 
@@ -32,5 +28,5 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rex-registry. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/rapid7/rex-registry. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
