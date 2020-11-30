@@ -6,8 +6,8 @@ require 'rex/registry/version'
 Gem::Specification.new do |spec|
   spec.name          = "rex-registry"
   spec.version       = Rex::Registry::VERSION
-  spec.authors       = ["David Maloney"]
-  spec.email         = ["DMaloney@rapid7.com"]
+  spec.authors       = ['Metasploit Hackers']
+  spec.email         = ['msfdev@metasploit.com']
 
   spec.summary       = %q{Rex Library for parsing offline registry hives}
   spec.description   = %q{Ruby Exploitation(Rex) library for parsing offline registry files from a Windows machine}
@@ -20,7 +20,6 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 2.2.0'
 
-  spec.add_development_dependency "bundler", "~> 1.12"
-  spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec"
 end
