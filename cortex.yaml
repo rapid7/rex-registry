@@ -1,0 +1,15 @@
+---
+info:
+  title: Rex Registry
+  description: Rex Library for parsing offline copies of Windows Registry Hives
+  x-cortex-git:
+    github:
+      alias: r7org
+      repository: rapid7/rex-registry
+  x-cortex-tag: rex-registry
+  x-cortex-type: service
+  x-cortex-domain-parents:
+  - tag: metasploit
+openapi: 3.0.1
+servers:
+- url: "/"
